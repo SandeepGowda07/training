@@ -1,0 +1,6 @@
+1.Write an example with implementing String manipulation operations(like:concatenate,substring,indexof(),valueof()...)
+2.Write an example with implementing autoboxing.
+3.Write an example with iplementing
+	I.create one list of names and iterate each name and print it
+	II.create one map, when adding one more,if we pass same key, which is existing, what will happen.
+4.Write an example to read a line from a file.
