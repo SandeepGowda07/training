@@ -1,0 +1,14 @@
+1.Create a class to demonstrate the Use of yield(), stop() and sleep() methods 
+2.Create Java application shows how the transactions in a bank can be carried out concurrently.
+                Note: you can create simple Account class with balance and Account id attributes and also deposit() and withdraw() methods
+3. Create a Login web application as below
+
+                The application will
+
+a)	Ask the user to input his "username" and "password"
+b)	Check the existence of this user in the Session
+c)	If exists, Retrieve his first name and last name from the session and display them
+d)	if not registered, Display "Sorry, you are not registered"
+e)	Create a register link below the "Login" button 
+f)	when user clicks Register link , it redirects to a webpage where user can Enter username and password 
+g)	once user click the register button ,it will save it in session
