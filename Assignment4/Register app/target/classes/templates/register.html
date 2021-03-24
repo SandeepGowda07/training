@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>RegisterPage</title>
+</head>
+<body>
+<h1>Register</h1>
+<form th:action="@{/add}" th:object="${user}" method="post">
+<table>
+<tr>
+<td><label for="userName">User Name</label></td>
+<td><input type="text" th:field="*{userName}" placeholder="UserName" maxlength="14"/></td>
+<td th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}">Name error</td>
+</tr>
+<tr>
+<td><label for="email">Email</label></td>
+<td><input type="email" th:field="*{email}" placeholder="Email"/></td>
+<td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email error</td>
+</tr>
+<tr>
+<td><label for="dob">DOB</label></td>
+<td><input type="date" th:field="*{dob}" placeholder="Dob"/></td>
+ <td th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}">DOB error</td>
+</tr>
+<tr>
+<td><label for="password">Password</label></td>
+<td><input type="password" th:field="*{password}" placeholder="Password" /></td>
+<td th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password error</td>
+</tr>
+</table>
+<input type="submit" value="Submit"/>
+<p>Already Registered?<a th:href=@{/login}>Login here</a></p>
+<h3><span th:utext="${message}"></span></h3>
+
+</form>
+</body>
+</html>
