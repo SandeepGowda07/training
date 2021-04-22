@@ -1,0 +1,6 @@
+#Tue, 20 Apr 2021 15:18:40 +0530
+
+info.app.version=0.1
+info.app.name=UserApi
+grails.env=production
+info.app.grailsVersion=3.3.2
