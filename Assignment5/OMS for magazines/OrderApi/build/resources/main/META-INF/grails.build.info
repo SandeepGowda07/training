@@ -1,0 +1,6 @@
+#Mon, 19 Apr 2021 17:58:32 +0530
+
+info.app.version=0.1
+info.app.name=OrderApi
+grails.env=production
+info.app.grailsVersion=3.3.2
